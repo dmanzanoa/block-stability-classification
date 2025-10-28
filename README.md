@@ -56,10 +56,3 @@ python train.py \
 
 The script will print a summary of the network, train the model and report validation accuracy. To generate predictions for the test set, specify `--test-csv`, `--test-dir` and `--output-csv`; the script will write a CSV file with the required `id` and `stable_height` columns.
 
-## Background and Motivation
-
-Predicting the stability of object stacks is a fundamental physical reasoning task. Self‑driving cars, robots and industrial systems must infer whether a structure is likely to remain upright from limited visual information. The ShapeStacks dataset provides synthetic scenes of block stacks to facilitate research in this area【151838547997361†L53-L67】. This repository generalises the project into a professional workflow suitable for portfolios: it modularises data loading, segmentation and model definitions, provides a clean command‑line interface, and avoids any coursework‑specific assumptions.
-
-## License
-
-This codebase is released for educational and demonstration purposes.
